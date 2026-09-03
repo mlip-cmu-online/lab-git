@@ -1,21 +1,4 @@
-
 # minGPT
-
-## MLiP Lab 2 Submission
-
-After completing the conflict, pull-request, and revert exercises, generate the two submission files from the repository root:
-
-```shell
-python3 scripts/generate-git-submission.py \
-  --learner "Your name" \
-  --pr-url "https://github.com/mlip-cmu-online/lab-git/pull/NUMBER" \
-  --conflict-commit CONFLICT_COMMIT_SHA \
-  --bad-commit BAD_COMMIT_SHA \
-  --revert-commit REVERT_COMMIT_SHA
-```
-
-Open `submission/git-report.html` and correct any item marked `missing` before uploading it to Canvas.
-Keep the generated `submission/git-manifest.json` with your submission files, and answer the two interpretation questions separately in Canvas.
 
 ![mingpt](mingpt.jpg)
 
