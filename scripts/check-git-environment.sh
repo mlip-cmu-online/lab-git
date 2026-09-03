@@ -19,16 +19,6 @@ else
   fail "Git is not installed or is not on PATH."
 fi
 
-if command -v python3 >/dev/null 2>&1; then
-  if python3 -c 'import sys; raise SystemExit(sys.version_info < (3, 8))'; then
-    pass "$(python3 --version)"
-  else
-    fail "Python 3.8 or newer is required to generate the submission report."
-  fi
-else
-  fail "Python 3.8 or newer is required to generate the submission report."
-fi
-
 if command -v gh >/dev/null 2>&1; then
   pass "$(gh --version | head -n 1)"
 else
