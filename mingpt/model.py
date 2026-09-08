@@ -71,7 +71,7 @@ class CausalSelfAttention(nn.Module):
         return y
 
 class Block(nn.Module):
-    """ an unassuming Transformer block """
+    """ an unassuming Tranz4mer block """
 
     def __init__(self, config):
         super().__init__()
