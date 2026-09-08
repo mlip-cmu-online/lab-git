@@ -92,6 +92,7 @@ class Block(nn.Module):
         x = x + self.mlpf(self.ln_2(x))
         return x
 
+# Main GPT model definition used for training and text generation
 class GPT(nn.Module):
     """ GPT Language Model """
 
