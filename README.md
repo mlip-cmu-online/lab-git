@@ -110,6 +110,7 @@ Papers + some implementation notes:
 - larger batchsize of 512 is used
 - GPT-2 used 48 layers and d_model 1600 (vs. original 12 layers and d_model 768). ~1.542B params
 - This is another change I made on main this time to make a merge conflict
+- This is a change I made to make a merge conflict
 
 #### Language Models are Few-Shot Learners (GPT-3)
 
