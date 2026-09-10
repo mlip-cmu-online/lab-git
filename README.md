@@ -1,3 +1,7 @@
+# readMe Line Edit
+
+This is to progress on the lab
+
 # minGPT
 
 ![mingpt](mingpt.jpg)
