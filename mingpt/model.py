@@ -36,6 +36,10 @@ class CausalSelfAttention(nn.Module):
     def __init__(self, config):
         super().__init__()
         assert config.n_embd % config.n_head == 0
+        # TODO: I wish there were type hints because I don't know what type config is.
+        # Types would really help me parse this, but maybe it's just me.
+        print('any change you can make I can make better')
+        print('I can make any change better than you.')
         # key, query, value projections for all heads, but in a batch
         self.c_attn = nn.Linear(config.n_embd, 3 * config.n_embd)
         # output projection
