@@ -1,4 +1,8 @@
-# minGPT
+# Git Lab: Learning Branches and Practicing Collaboration
+
+This lab practices collaborative Git workflows, including resolving merge conflicts and safely reverting changes.
+
+<!-- Git lab: practice branching, conflict resolution, and collaboration. -->
 
 ![mingpt](mingpt.jpg)
 
